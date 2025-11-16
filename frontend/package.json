@@ -2,7 +2,8 @@
   "name": "preflight-frontend",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve --mode development --hot"
+    "build": "webpack --mode production",
+    "start": "node server.js"
   },
   "dependencies": {
     "react": "^18.2.0",
