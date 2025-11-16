@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: react-webpack-express-app
+    name: my-react-express-app
     env: node
-    buildCommand: "npm install && npm run build"
-    startCommand: "node server.js"
+    buildCommand: "cd frontend && npm install && npm run build"
+    startCommand: "node frontend/server.js"
     plan: free
